@@ -1,0 +1,374 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>无标题文档</title>
+<link rel="stylesheet" title="对于&quot;在浏览器中预览&quot;为禁用: ./index.css" type:"text/css>
+<style type="text/css">
+
+/*css reset code */
+
+/****  文字大小初始化,使1em=10px *****/
+body {
+font-size:62.5%;
+} /* for IE/Win */
+html>body {
+font-size:10px;
+} /* for everything else */
+
+/*字体边框等初始化*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td {
+ padding: 0;
+ margin: 0;
+ }
+table {
+ border-collapse: collapse;
+ border-spacing: 0;
+ }
+fieldset,img {
+ border: 0;
+ }
+ img {
+ display:block;
+ }
+address,caption,cite,code,dfn,th,var {
+ font-weight: normal;
+ font-style: normal;
+ }
+ol,ul {
+ list-style: none;
+ }
+caption,th {
+ text-align: left;
+ }
+h1,h2,h3,h4,h5,h6 {
+ font-weight: normal;
+ font-size: 100%;
+ }
+q:before,q:after {
+ content:'';
+ }
+abbr,acronym { border: 0;
+ }
+
+a {
+text-decoration:none;
+}
+
+
+/* CSS Document */
+
+@import url(对于"在浏览器中预览"为禁用: ./images/reset.css);
+	#container{
+		width:1002px;
+		margin:0px auto;
+	}
+	#header{
+		background-color:#CCC;
+		background-image:url(images/top_bg.jpg);
+		height:128px;
+	}
+	#nav li{
+		float:left;
+		width:90px;
+		margin: 0px 0px 0px 1px;
+		text-align:center;
+		
+	}
+	#nav a{
+		line-height:37px;
+		font-size:16px;
+		font-family:'微软雅黑','黑体';
+		color:#363636;
+		display:block;
+		width:90px;
+		height:37px;
+		border-radius:125px;
+		
+	}
+	
+	#nav a:hover{
+		color:#FFF;
+		background:url(images/nav_on.gif);			
+	}
+	#lside{
+		height:473px;
+		width:694px;
+		border:1px solid #EEE;
+		float:left;
+		border-top:none;
+		border-radius:15px;
+	}
+	#rside{
+		height:475px;
+		width:294px;
+		float:right;
+	}
+	
+	#main{
+
+	}
+	.clr{
+		clear:both;
+		height:0px;
+		width:0px;
+	}
+	.subtitle{
+		height:37px;
+		background:#999 url(images/index_main_top_bg.gif);
+	}
+	.subtitle img{
+		margin:5px 0 0 10px;
+		float:left;
+	}
+	.subtitle h1{
+		float:left;
+		font-size:16px;
+		font-family:'微软雅黑','黑体',sans-serif;
+		line-height:37px;
+		
+	}
+	.subtitle a{
+		float:right;
+		color:#999;
+		font-size:12px;
+		line-height:37px;
+	}
+	.four{
+		width:316px;
+		height:198px;
+		margin:15px 15px 0px 15px;
+		float:left;
+		background:#EEE ;
+		_display:inline;
+		border-radius:15px;
+	}
+	.four img{
+		float:left;
+		padding:5px;
+		background:#FFF;
+		margin:0px 5px 5px 5px;
+		border-radius:5px;
+	}
+	.four ul{
+		float:left;
+		maigin:10px;
+		background:#EEE;
+
+	}
+	.four h2{
+		font-size:16px;
+		font-family:'微软雅黑','黑体',sans-serif;
+		margin:6px 0 5px 10px;
+		color:#444;
+	}
+	.four li{
+		background:url(images/service_intro_bg.gif) no-repeat  ;
+		padding-left:10px;
+		height:25px;
+		line-height:25px;
+	}
+	.four a{
+		color:#666;
+		font-size:12px;
+	}
+	.four a:visited{
+		color:#606060;
+	}
+	.four a:hover{
+		color:#FF8324;
+	}
+	#art{
+		background:#EEE;
+		margin-top:1px;
+		padding-top:10px;
+		border-radius:0 0 15px 15px;
+	}
+		
+	#art li {
+		height:29px;
+		line-height:29px;
+	}
+	#art a{
+		background:url(images/article_head.gif) no-repeat;
+		display:block;
+		height:29px;
+		padding-left:25px;
+		color:#777;
+		font-size:12px;
+		font-family:'微软雅黑','黑体',sans-serif;
+
+	}
+	#art a:hover{
+		background:url(images/article_on_bg.gif);
+		color:#FF8324;
+		border-radius:15px;
+	}
+	#contact{
+		background:#EEE;
+		height:90px;
+		width:274px;
+		padding:20px 0 59px 20px;
+		margin:1px 0px 0px;
+		border-radius:0 0 15px 15px;
+	}
+	#link{
+		height:20px;
+		margin-top:5px;
+		background:#EEE;
+	}
+	#link li{
+		float:left;
+		margin-right:10px;
+		height:20px;
+		line-height:20px;
+
+	}
+	#link a{
+		color:#444;
+		font-size:12px;
+		font-family:'微软雅黑','黑体',sans-serif;
+	}
+	
+	#link a:visited{
+		color:#333;
+	}
+	#link a:hover{
+		color:#FF8324;
+	}
+	
+	
+	#footer address{
+		color:#333;
+		font-size:12px;
+		font-family:'微软雅黑','黑体',sans-serif;
+		margin-top:5px;
+		background:#EEE;
+	}
+		
+	#banner{
+		margin:6px 0px;
+	}
+		
+		
+	
+
+	
+
+</style>
+</head>
+
+<body>
+  <div id="container">
+  	<div id="header">
+      <img src="images/logo.jpg" alt="logo" id="logo">
+      <ul id="nav">
+		<li><a href="#">导航1</a></li>
+		<li><a href="#">导航2</a></li>
+		<li><a href="#">导航3</a></li>
+		<li><a href="#">导航4</a></li>
+		<li><a href="#">导航5</a></li>
+		<li><a href="#">导航6</a></li>
+		<li><a href="#">导航7</a></li>
+
+      </ul>
+    </div>
+    
+    <img src="images/about_banner.jpg" alt="" id="banner">
+  	<div id="main">
+      <div id="lside">
+        <div class="subtitle">
+          <img src="images/circle.gif" alt="" id="logo_1">
+          <h1>核心业务</h1>
+          <a href="#">MORE&gt;&gt;</a>
+        </div>
+        <div class="four">
+          <h2>电子商务类网站建设</h2>
+          <img src="images/eshop_service.jpg" alt="">
+          <ul>
+            <li><a href="#">1纯属凑数的……</a></li>
+            <li><a href="#">2纯属凑数的……</a></li>
+            <li><a href="#">3纯属凑数的……</a></li>
+            <li><a href="#">4纯属凑数的……</a></li>
+            <li><a href="#">5纯属凑数的……</a></li>
+          </ul>
+        </div>
+        <div class="four">
+          <h2>信息门户类网站建设</h2>
+          <img src="images/eshop_service.jpg" alt="">
+          <ul>
+            <li><a href="#">1纯属凑数的……</a></li>
+            <li><a href="#">2纯属凑数的……</a></li>
+            <li><a href="#">3纯属凑数的……</a></li>
+            <li><a href="#">4纯属凑数的……</a></li>
+            <li><a href="#">5纯属凑数的……</a></li>
+          </ul>
+        </div>
+        <div class="four">
+          <h2>企业展示类网站建设</h2>
+          <img src="images/eshop_service.jpg" alt="">
+          <ul>
+            <li><a href="#">1纯属凑数的……</a></li>
+            <li><a href="#">2纯属凑数的……</a></li>
+            <li><a href="#">3纯属凑数的……</a></li>
+            <li><a href="#">4纯属凑数的……</a></li>
+            <li><a href="#">5纯属凑数的……</a></li>
+          </ul>
+        </div>
+        <div class="four">
+          <h2>网站维护外包</h2>
+          <img src="images/eshop_service.jpg" alt="">
+          <ul>
+            <li><a href="#">1纯属凑数的……</a></li>
+            <li><a href="#">2纯属凑数的……</a></li>
+            <li><a href="#">3纯属凑数的……</a></li>
+            <li><a href="#">4纯属凑数的……</a></li>
+            <li><a href="#">5纯属凑数的……</a></li>
+          </ul>
+          <p>&nbsp;</p>
+        </div>
+      </div>    
+      <div id="rside">
+      <div class="subtitle">
+          <img src="images/circle.gif" alt="" id="logo_1">
+          <h1>文章观点</h1>
+          <a href="#">MORE&gt;&gt;</a>
+      </div>
+      <ul id="art">
+        <li><a href="#">纯属凑字1</a></li>
+        <li><a href="#">纯属凑字2</a></li>
+        <li><a href="#">纯属凑字3</a></li>
+        <li><a href="#">纯属凑字4</a></li>
+        <li><a href="#">纯属凑字5</a></li>
+        <li><a href="#">纯属凑字6</a></li>
+        <li><a href="#">纯属凑字7</a></li>
+      </ul>
+        <br/>
+      <div class="subtitle">
+          <img src="images/circle.gif" alt="" id="logo_1">
+          <h1>联系我们</h1>
+          <a href="#">MORE&gt;&gt;</a>
+          <div class="clr"></div>
+          <div id="contact"></div>
+
+      </div>
+      </div>
+      <div class="clr"></div>
+    </div>
+  	<div id="footer">
+      <ul id="link">
+      	<li><a href="#">再次凑字01</a></li>
+      	<li><a href="#">再次凑字02</a></li>
+      	<li><a href="#">再次凑字03</a></li>
+      	<li><a href="#">再次凑字04</a></li>
+      	<li><a href="#">再次凑字05</a></li>
+      	<li><a href="#">再次凑字06</a></li>
+      	<li><a href="#">再次凑字07</a></li>
+      </ul>
+      <address>&copy;2006-2009北京灵犀汇通科技有限公司 版权所有 http://www.lionhit.com 京ICP备07020337号
+      </address>
+    </div>
+  </div>
+</body>
+</html>
