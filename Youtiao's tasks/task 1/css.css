@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* CSS Document */
+nav-wrapper{
+	margin:0px auto;
+}
+.nav{
+	background-color: #fff; 
+	position: fixed; width: 100%; left: 0; top: 0;
+}
+.nav ul{
+	list-style: none;
+	margin-left:145px;
+}
+.nav li{
+	display: inline; 
+	margin: 0 20px;
+}
+.nav a{
+	 text-decoration:none;
+}
+.container{
+	width: 1000px;
+	margin:80px auto;
+}
+
+	
